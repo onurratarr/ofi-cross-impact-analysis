@@ -1,0 +1,10 @@
+# Veri dosyaları
+data/*.mbp-10
+data/*.csv
+
+# Python dosyaları
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
