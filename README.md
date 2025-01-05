@@ -45,11 +45,21 @@ Working with high-frequency data for 4 Nasdaq stocks:
 3. **Review the results**:
    - Outputs, including OFI metrics, PCA results, and visualizations, will be saved in the `results/` directory.
 
-## Summary of Findings
-- **OFI Metrics**: Successfully computed multi-level OFI metrics for BKR, NVDA, MARA, and TSLA.
-- **Cross-Impact Relationships**: NVDA demonstrated the strongest contemporaneous impact on other stocks.
-- **Lagged Analysis**: Moderate predictive power observed for 1-minute and 5-minute price changes.
+Summary of the Findings
+OFI Metrics:
 
+Successfully computed for four stocks: BKR, NVDA, MARA, and TSLA.
+PCA reduced multi-level metrics into components, capturing ~85% variance in the first two components.
+Cross-Impact Relationships:
+
+NVDA showed the strongest contemporaneous impact on other stocks.
+Significant relationships observed across all analyzed stocks.
+Lagged Impact Analysis:
+
+Moderate predictive power found for lagged OFI on price changes, with 1-minute and 5-minute horizons showing autocorrelations.
+Visualizations:
+
+Generated heatmaps, time-series plots, and boxplots to illustrate findings.
 ## References
 - Cont, R., & Kukanov, A. (2017). Cross-Impact of Order Flow in Equity Markets.
 - Databento Documentation: [https://databento.com/docs](https://databento.com/docs)
