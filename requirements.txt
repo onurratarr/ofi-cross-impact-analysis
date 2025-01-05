@@ -1,7 +1,7 @@
-numpy
 pandas
+numpy
 matplotlib
 seaborn
 scikit-learn
-statsmodels
-jupyterlab
+jupyter
+openpyxl
